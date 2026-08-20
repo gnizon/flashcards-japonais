@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards Japonais - N5</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Flashcards Japonais</h1>
+            <p>Cliquez sur la carte pour révéler</p>
+        </div>
+
+        <div class="deck-selector" id="deckSelector"></div>
+
+        <div class="progress" id="progressContainer"></div>
+
+        <div class="card-wrapper">
+            <div class="card" id="card">
+                <div class="card-face card-front">
+                    <div class="card-front-hint" id="deckLabel">Hiragana</div>
+                    <div id="cardText">ねこ</div>
+                </div>
+                <div class="card-face card-back">
+                    <div class="card-back-romaji" id="romaji">neko</div>
+                    <div class="card-back-meaning" id="meaning">chat</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats" id="stats">
+            Carte 1 / 9
+        </div>
+
+        <div class="controls">
+            <button class="btn-prev" id="prevBtn">← Précédent</button>
+            <button class="btn-next" id="nextBtn">Suivant →</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

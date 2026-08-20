@@ -1,0 +1,29 @@
+{
+  "name": "flashcards-japonais",
+  "version": "1.0.0",
+  "description": "Application de flashcards interactives pour apprendre l'hiragana/katakana avec le vocabulaire N5 du JLPT",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "test": "echo \"Tests à venir\""
+  },
+  "keywords": [
+    "japanese",
+    "learning",
+    "flashcards",
+    "n5",
+    "jlpt",
+    "hiragana",
+    "katakana",
+    "vocabulary"
+  ],
+  "author": "Flashcards Japonais Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-username/flashcards-japonais.git"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
